@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="zh">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<meta name="description" content="铃铛猫·星之国奇旅 — 超级马里奥3D世界原创非侵权复刻的交付 review。">
-<title>铃铛猫·星之国奇旅 — Review</title>
+<meta name="description" content="Bellcat · Star Land Journey — delivery review of an original, non-infringing Super Mario 3D World replica.">
+<title>Bellcat · Star Land Journey — Review</title>
 <style>
   :root{
     --ground:#f7f2ea; --card:#fffdf8; --ink:#2a2440; --soft:#6a627e;
@@ -36,17 +36,16 @@
   *{box-sizing:border-box}
   body{
     margin:0; background:var(--ground); color:var(--ink);
-    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
     line-height:1.62; -webkit-font-smoothing:antialiased;
   }
   .wrap{max-width:820px; margin:0 auto; padding:clamp(20px,5vw,56px) clamp(18px,4vw,40px) 80px}
-  .display{font-family:ui-rounded,"SF Pro Rounded","Hiragino Maru Gothic ProN","PingFang SC",system-ui,sans-serif}
+  .display{font-family:ui-rounded,"SF Pro Rounded",system-ui,sans-serif}
   .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
 
-  /* header */
   header{margin-bottom:8px}
   .eyebrow{font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-ink); font-weight:700}
-  h1{font-family:ui-rounded,"SF Pro Rounded","Hiragino Maru Gothic ProN","PingFang SC",system-ui,sans-serif;
+  h1{font-family:ui-rounded,"SF Pro Rounded",system-ui,sans-serif;
      font-size:clamp(30px,6vw,46px); line-height:1.08; margin:.28em 0 .18em; text-wrap:balance; letter-spacing:-.01em}
   .sub{color:var(--soft); font-size:16px; margin:0 0 20px; max-width:60ch}
   .badge{display:inline-flex; align-items:center; gap:8px; background:linear-gradient(180deg,var(--accent),#d5870f);
@@ -62,12 +61,10 @@
 
   hr{border:0; border-top:1px solid var(--line); margin:38px 0}
   section{margin-top:36px}
-  h2{font-family:ui-rounded,"SF Pro Rounded","Hiragino Maru Gothic ProN","PingFang SC",system-ui,sans-serif;
+  h2{font-family:ui-rounded,"SF Pro Rounded",system-ui,sans-serif;
      font-size:22px; margin:0 0 4px; display:flex; align-items:baseline; gap:10px}
-  h2 .n{font-size:13px; color:var(--accent-ink); font-weight:800; letter-spacing:.05em}
   .lede{color:var(--soft); margin:.2em 0 1em; font-size:15.5px}
 
-  /* fidelity checklist */
   .loop{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px}
   .loop li{display:grid; grid-template-columns:auto 1fr; gap:12px; align-items:start;
     background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px 15px; box-shadow:var(--shadow)}
@@ -78,7 +75,6 @@
   .loop b{font-weight:700}
   .loop .d{color:var(--soft); font-size:14.5px}
 
-  /* helper tag groups */
   .grp{margin:14px 0}
   .grp .lab{font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--soft); font-weight:700; margin-bottom:7px}
   .tags{display:flex; flex-wrap:wrap; gap:7px}
@@ -86,7 +82,6 @@
     border:1px solid var(--line); border-radius:7px; padding:4px 9px; color:var(--ink)}
   .tag .a{color:var(--accent-ink)}
 
-  /* pitfall cards */
   .pit{display:flex; flex-direction:column; gap:12px}
   .p{background:var(--card); border:1px solid var(--line); border-left:3px solid var(--accent); border-radius:12px;
     padding:14px 16px; box-shadow:var(--shadow)}
@@ -98,7 +93,6 @@
   .p p b{color:var(--ink); font-weight:650}
   .p .mono{font-size:12.5px; color:var(--accent-ink)}
 
-  /* table */
   .scroll{overflow-x:auto; border:1px solid var(--line); border-radius:12px; box-shadow:var(--shadow); margin-top:16px}
   table{border-collapse:collapse; width:100%; min-width:460px; background:var(--card)}
   th,td{text-align:left; padding:10px 14px; font-size:13.5px; border-bottom:1px solid var(--line)}
@@ -107,13 +101,11 @@
   td.c{text-align:center; font-weight:700}
   .yes{color:var(--good)} .noo{color:var(--crit)}
 
-  /* gap list */
   .gaps{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px}
   .gaps li{padding-left:22px; position:relative; font-size:14.5px; color:var(--soft)}
   .gaps li b{color:var(--ink); font-weight:650}
-  .gaps li::before{content:"◆"; position:absolute; left:0; top:0; color:var(--accent); font-size:11px; top:3px}
+  .gaps li::before{content:"◆"; position:absolute; left:0; top:3px; color:var(--accent); font-size:11px}
 
-  /* controls */
   .demo{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px 18px 20px; box-shadow:var(--shadow)}
   .keys{display:flex; flex-wrap:wrap; gap:10px; margin:2px 0 16px}
   .key{display:inline-flex; align-items:center; gap:8px; font-size:14px}
@@ -133,135 +125,135 @@
 <body>
 <div class="wrap">
   <header>
-    <div class="eyebrow">Wanaka dev · 复刻交付 review</div>
-    <h1 class="display">铃铛猫 · 星之国奇旅</h1>
-    <p class="sub">超级马里奥 3D 世界的原创非侵权复刻 — 8 关主题猫世界，关关有 Boss，全套变身。</p>
-    <span class="badge">🔔 STAGE CLEAR · 全功能交付</span>
+    <div class="eyebrow">Wanaka dev · replica delivery review</div>
+    <h1 class="display">Bellcat · Star Land Journey</h1>
+    <p class="sub">An original, non-infringing take on Super Mario 3D World — 8 themed cat worlds, a boss in every stage, a full transformation set.</p>
+    <span class="badge">🔔 STAGE CLEAR · full-feature delivery</span>
     <div class="meta">
-      <span class="k">项目 <b class="mono">prj_0Lv3…Vp7</b></span>
-      <span class="k">checkpoint <b class="mono">chk_0Mm2IYX…</b></span>
+      <span class="k">project <b class="mono">prj_0Lv3…Vp7</b></span>
+      <span class="k">checkpoint <b class="mono">chk_0MtMZwA…</b></span>
       <span class="k">wall <b>h10 / CHAI</b></span>
-      <span class="k">▶ <a href="https://studio.dev.wanaka.app/editor?projectId=prj_0Lv7ix0xU8oLVp7">编辑器打开 → Preview</a></span>
+      <span class="k">▶ <a href="https://studio.dev.wanaka.app/editor?projectId=prj_0Lv7ix0xU8oLVp7">open editor → Preview</a></span>
     </div>
   </header>
 
   <hr>
 
   <section>
-    <h2 class="display">做了什么</h2>
-    <p class="lede">全功能交付：8 关主题各异的 3D 平台跳跃（草原→沙漠→雪山→丛林→海岛→矿山→云层→火山城堡），每关一个关底 Boss，全套变身道具，标题选关 + DOM HUD + 教程，逐关 BGM，受击/收集/连击/通关的完整反馈层，以及一批 Sketchfab 非侵权资产换装。全程原创化（改名、通用美术），不复刻任天堂 IP。</p>
+    <h2 class="display">What was built</h2>
+    <p class="lede">A full-feature delivery: 8 distinctly-themed 3D platforming stages (Meadow → Desert → Frost Peak → Jungle → Coral Isles → Mine → Sky → Volcano Castle), one end-of-stage boss each, a full transformation set, a title/level-select screen, DOM HUD + tutorial, per-stage BGM, a complete feedback layer for damage / pickups / combos / clears, plus a batch of non-infringing Sketchfab asset swaps. Everything is originalized (renamed, generic art); it does not reproduce Nintendo IP.</p>
   </section>
 
   <section>
-    <h2 class="display">核心循环还原度</h2>
-    <p class="lede">对照认领时的核心循环 —— 移动跳跃 · 收集 · 消灭敌人 · 抵达终点 · 8 关递进 · 变身。</p>
+    <h2 class="display">Core-loop fidelity</h2>
+    <p class="lede">Against the loop claimed on the wall — move &amp; jump · collect · defeat enemies · reach the goal · 8-stage progression · transform.</p>
     <ul class="loop">
-      <li><span class="st ok">✅ 到位</span><div><b>移动 / 跳跃手感</b><div class="d">WASD 相机相对移动，K/空格跳；三段跳、长跳、翻滚、蹲跳、踏地砸、蹬墙跳。单一移动权威 = CharController。</div></div></li>
-      <li><span class="st ok">✅ 到位</span><div><b>冲刺 / 攻击</b><div class="d">J/Shift 冲刺；变身后 J 触发对应攻击（火/冰球投射、猫爪、狸尾扫）。</div></div></li>
-      <li><span class="st ok">✅ 到位</span><div><b>变身系统</b><div class="d">火 / 冰 / 猫 / 竹蜻蜓 / 狸猫 / 巨化，道具改玩家整体颜色区分形态，受击掉一级形态。</div></div></li>
-      <li><span class="st ok">✅ 到位</span><div><b>收集</b><div class="d">金币（满 100 → 1UP）、力量星、印章，顶木箱出金币、顶宝箱得道具。</div></div></li>
-      <li><span class="st ok">✅ 到位</span><div><b>敌人</b><div class="d">巡逻怪、带刺怪（不可踩）、飞行怪、追击怪；可踩 / 可武器灭 / 可冰冻当踏板。</div></div></li>
-      <li><span class="st ok">✅ 到位</span><div><b>关底 Boss ×8</b><div class="d">蓄力→冲锋招式 + 血量分阶段狂暴；踩踏重伤 / 火冰球低伤；终盘炎龙额外喷火弹。</div></div></li>
-      <li><span class="st ok">✅ 到位</span><div><b>过关 / 失败 / 选关</b><div class="d">抵达旗杆通关（Boss 未死不给过）；掉命回检查点，命尽回标题选关；switchSceneRef 按 idx 切关。</div></div></li>
-      <li><span class="st part">◐ 切薄</span><div><b>难度曲线</b><div class="d">追击怪按关号提速、Boss 分阶段——精细的每关布局难度仍需真机调。</div></div></li>
-      <li><span class="st part">◐ 切薄</span><div><b>相机手感</b><div class="d">engine follow 相机 + 保守清晰度微调，最终手感需真机拍板。</div></div></li>
-      <li><span class="st no">✗ 导演判断</span><div><b>「像不像原作」的体感 / 平衡</b><div class="d">受版权与原创化约束，且自动化环境读不到真机手感——留给导演真机验收。</div></div></li>
+      <li><span class="st ok">✅ done</span><div><b>Move / jump feel</b><div class="d">WASD camera-relative movement, K/Space jump; triple-jump, long jump, roll, crouch-jump, ground pound, wall jump. Single movement authority = CharController.</div></div></li>
+      <li><span class="st ok">✅ done</span><div><b>Sprint / attack</b><div class="d">J/Shift sprint; when transformed, J fires the matching attack (fire/ice projectile, cat claw, tanuki tail swipe).</div></div></li>
+      <li><span class="st ok">✅ done</span><div><b>Transformations</b><div class="d">Fire / ice / cat / propeller / tanuki / mega — each tints the whole player to signal the form; a hit drops you one form.</div></div></li>
+      <li><span class="st ok">✅ done</span><div><b>Collectibles</b><div class="d">Coins (100 → 1UP), Power Stars, stamps; hit crates for coins and chests for power-ups.</div></div></li>
+      <li><span class="st ok">✅ done</span><div><b>Enemies</b><div class="d">Patrollers, spiky (un-stompable), flyers, chasers — stompable / weapon-killable / freezable into stepping stones.</div></div></li>
+      <li><span class="st ok">✅ done</span><div><b>End-of-stage bosses ×8</b><div class="d">Wind-up → charge attack + HP-phased rage; stomp = heavy damage, fire/ice ball = light; the final Flame Dragon also breathes fireballs.</div></div></li>
+      <li><span class="st ok">✅ done</span><div><b>Clear / fail / select</b><div class="d">Reach the goal flag to clear (boss must fall first); lose a life → checkpoint, out of lives → title/level-select; switchSceneRef by idx.</div></div></li>
+      <li><span class="st part">◐ thinned</span><div><b>Difficulty curve</b><div class="d">Chasers speed up per stage and bosses phase — a thin slice; fine-grained per-stage layout difficulty still needs live tuning.</div></div></li>
+      <li><span class="st part">◐ thinned</span><div><b>Camera feel</b><div class="d">Engine follow-cam with a conservative clarity nudge; final feel needs a call on real hardware.</div></div></li>
+      <li><span class="st no">✗ director's call</span><div><b>"Does it feel like the original" / balance</b><div class="d">Constrained by copyright &amp; originalization, and the sandbox can't read live feel — left for hands-on acceptance.</div></div></li>
     </ul>
   </section>
 
   <section>
-    <h2 class="display">用到的 Wanaka helper / 能力</h2>
-    <p class="lede">给下一款同类 3D 平台 / 动作游戏当选型参考。</p>
-    <div class="grp"><div class="lab">移动 · 动画权威</div><div class="tags">
+    <h2 class="display">Wanaka helpers / capabilities used</h2>
+    <p class="lede">A selection reference for the next 3D platformer / action game.</p>
+    <div class="grp"><div class="lab">Movement · animation authority</div><div class="tags">
       <span class="tag">b.Physics<span class="a"> shape:Capsule</span></span><span class="tag">b.CharController</span>
       <span class="tag">simulateJump()</span><span class="tag">getJumpSpeedToReach()</span><span class="tag">isOnFloorObject()</span>
       <span class="tag">moveRelativeToCamera()</span><span class="tag">b.PhysicsCharacter3DAnimator</span>
     </div></div>
-    <div class="grp"><div class="lab">对象</div><div class="tags">
+    <div class="grp"><div class="lab">Objects</div><div class="tags">
       <span class="tag">obj.Model3D<span class="a"> asset: / assetStoreId:</span></span><span class="tag">origin:BottomCenterY</span>
-      <span class="tag">.color 叠色</span><span class="tag">.uniformScale 巨化</span>
-      <span class="tag">obj.Cube3D<span class="a"> topFace 地面贴图</span></span><span class="tag">obj.Text</span>
+      <span class="tag">.color tint</span><span class="tag">.uniformScale mega</span>
+      <span class="tag">obj.Cube3D<span class="a"> topFace ground tex</span></span><span class="tag">obj.Text</span>
     </div></div>
-    <div class="grp"><div class="lab">上下文 c · 状态</div><div class="tags">
+    <div class="grp"><div class="lab">Context c · state</div><div class="tags">
       <span class="tag">c.scene.switchSceneRef({idx})</span><span class="tag">c.collision.isWithinDistance3D()</span>
       <span class="tag">c.camera.farPlane</span><span class="tag">c.audio.playMusic()</span>
       <span class="tag">createState() $reset</span><span class="tag">createObjectState()</span>
     </div></div>
-    <div class="grp"><div class="lab">场景配置 · HUD</div><div class="tags">
+    <div class="grp"><div class="lab">Scene config · HUD</div><div class="tags">
       <span class="tag">scene.config follow cam</span><span class="tag">fx.ssao/outline/bloom/vignette</span>
-      <span class="tag">scene.physics3D</span><span class="tag">DOM overlay HUD<span class="a"> 只显示</span></span>
+      <span class="tag">scene.physics3D</span><span class="tag">DOM overlay HUD<span class="a"> display-only</span></span>
     </div></div>
   </section>
 
   <section>
-    <h2 class="display">踩的坑</h2>
+    <h2 class="display">Pitfalls hit</h2>
     <div class="pit">
-      <div class="p"><h3>编辑器协作 / 部署格式分叉</h3>
-        <p><b>触发</b>：用户在编辑器手改后云端 head 领先本地；本地是 CLI 格式（内联 scene-identity），云端 clone 是编辑器格式（<span class="mono">_scenes.json</span> + <span class="mono">res_*Model</span>）。</p>
-        <p><b>验证</b>：deploy 报 500 / “changed upstream”。</p>
-        <p><b>修复</b>：从本地 CLI 树部署；判定「云端领先=是否用户改内容」用 <span class="mono">diff scene.instances.ts</span> == 0 且 overrides 空壳 → 纯归一化，直接推安全。</p>
+      <div class="p"><h3>Editor collaboration / deploy format fork</h3>
+        <p><b>Trigger</b>: after the user edits in the editor, cloud head leads local; local is CLI format (inline scene-identity), cloud clone is editor format (<span class="mono">_scenes.json</span> + <span class="mono">res_*Model</span>).</p>
+        <p><b>Symptom</b>: deploy returns 500 / "changed upstream".</p>
+        <p><b>Fix</b>: deploy from the local CLI tree; decide "did cloud lead because the user changed content" via <span class="mono">diff scene.instances.ts</span> == 0 and an empty overrides shell → pure normalization, safe to push.</p>
       </div>
-      <div class="p eng"><h3>自定义 GLB 注入 <span class="flag">引擎层</span></h3>
-        <p><b>触发</b>：Sketchfab GLB 直接引用。<b>现象</b>：TANGENT 属性令 dev WebGPU 崩；多元素包整包导入 6 模型糊一起。</p>
-        <p><b>修复</b>：① python 读 GLB 删每 primitive 的 TANGENT 重写 JSON chunk；② 按命名 node 抽单 mesh；③ 内容寻址 sha256 → <span class="mono">aws s3 cp s3://wanaka-dev/assets/</span> → <span class="mono">asset:</span> 引用。</p>
+      <div class="p eng"><h3>Custom GLB injection <span class="flag">engine</span></h3>
+        <p><b>Trigger</b>: referencing a Sketchfab GLB directly. <b>Symptom</b>: a TANGENT attribute crashes dev WebGPU; importing a multi-element pack whole clumps all 6 models together.</p>
+        <p><b>Fix</b>: ① python-strip the TANGENT attribute per primitive and rewrite the JSON chunk; ② extract a single mesh by named node; ③ content-address by sha256 → <span class="mono">aws s3 cp s3://wanaka-dev/assets/</span> → reference via <span class="mono">asset:</span>.</p>
       </div>
-      <div class="p"><h3>抽单 mesh 后文件仍 ~20MB</h3>
-        <p><b>根因</b>：只改 node 图没裁 BIN 缓冲，整包共享贴图仍在。<b>现状</b>：保留（道具低频、能跑），可后续裁 buffer 到几百 KB。</p>
+      <div class="p"><h3>Extracted single mesh still ~20MB</h3>
+        <p><b>Cause</b>: only the node graph was changed, the BIN buffer wasn't trimmed, so the whole pack's shared textures ride along. <b>State</b>: kept (low-frequency item, runs); can later trim the buffer to a few hundred KB.</p>
       </div>
-      <div class="p"><h3>相机远裁面裁掉远景</h3>
-        <p>加背景（远山/云/地标）后远处被裁 → 每帧 <span class="mono">c.camera.farPlane = 16000</span>。</p>
+      <div class="p"><h3>Far plane clipping the backdrop</h3>
+        <p>After adding distant peaks / clouds / landmarks they got clipped → set <span class="mono">c.camera.farPlane = 16000</span> each frame.</p>
       </div>
-      <div class="p"><h3><span class="mono">set()</span> 声明前使用 / Boss <span class="mono">maxHp</span> 重复声明</h3>
-        <p><b>发现</b>：Wanaka compile 编译门直接报错拦下。<b>修复</b>：挪声明顺序、提函数顶变量、删块内重复 const。</p>
+      <div class="p"><h3><span class="mono">set()</span> used before declaration / boss <span class="mono">maxHp</span> re-declared</h3>
+        <p><b>Caught by</b>: the Wanaka compile gate errored directly. <b>Fix</b>: move the call after the <span class="mono">const</span>; hoist the boss variables and drop the duplicate const in the fire block.</p>
       </div>
-      <div class="p"><h3>「莫名其妙死亡」</h3>
-        <p>路过岩浆/流沙边缘就掉命 → 危险区判定收紧为「水平很近 + 高度贴近池面」才掉命。</p>
+      <div class="p"><h3>"Deaths out of nowhere"</h3>
+        <p>Grazing the edge of lava / quicksand killed you → tightened the hazard test to "horizontally very close + height near the pool surface".</p>
       </div>
-      <div class="p eng"><h3>真窗口自动化读不到状态 <span class="flag">引擎层</span></h3>
-        <p><b>根因</b>：Preview 游戏跑在跨域 iframe，自动化浏览器里嵌套 WebGPU 画布不合成 → 黑屏（用户自己机器正常）。<b>兜底</b>：编译门 + build 截图确认渲染，可玩性/手感最终需真机验。</p>
+      <div class="p eng"><h3>Real-window automation can't read state <span class="flag">engine</span></h3>
+        <p><b>Cause</b>: the Preview game runs in a cross-origin iframe; the nested WebGPU canvas doesn't composite in the automation browser → black screen (fine on the user's own machine). <b>Fallback</b>: compile gate + build-mode screenshots confirm rendering; playability/feel left for a live pass.</p>
       </div>
     </div>
     <div class="scroll"><table>
-      <thead><tr><th>坑</th><th>发现方式</th><th>自动可检测</th></tr></thead>
+      <thead><tr><th>Pitfall</th><th>Found via</th><th>Auto-detectable</th></tr></thead>
       <tbody>
-        <tr><td>部署格式分叉 500</td><td>deploy 报错</td><td class="c yes">是</td></tr>
-        <tr><td>GLB TANGENT 崩</td><td>真窗口</td><td class="c noo">否</td></tr>
-        <tr><td>抽 mesh 后 20MB</td><td>脚本</td><td class="c yes">是</td></tr>
-        <tr><td>相机远裁面</td><td>真窗口 / 截图</td><td class="c noo">否</td></tr>
-        <tr><td>set 声明前用 / const shadow</td><td>compile</td><td class="c yes">是</td></tr>
-        <tr><td>危险区误杀</td><td>真窗口</td><td class="c noo">否</td></tr>
-        <tr><td>自动化读不到状态</td><td>真窗口</td><td class="c noo">否</td></tr>
+        <tr><td>deploy format fork 500</td><td>deploy error</td><td class="c yes">yes</td></tr>
+        <tr><td>GLB TANGENT crash</td><td>real window</td><td class="c noo">no</td></tr>
+        <tr><td>extracted mesh 20MB</td><td>script</td><td class="c yes">yes</td></tr>
+        <tr><td>far-plane clipping</td><td>real window / screenshot</td><td class="c noo">no</td></tr>
+        <tr><td>set before decl / const shadow</td><td>compile</td><td class="c yes">yes</td></tr>
+        <tr><td>hazard over-kill</td><td>real window</td><td class="c noo">no</td></tr>
+        <tr><td>automation can't read state</td><td>real window</td><td class="c noo">no</td></tr>
       </tbody>
     </table></div>
   </section>
 
   <section>
-    <h2 class="display">与原作差距</h2>
+    <h2 class="display">Gaps vs the original</h2>
     <ul class="gaps">
-      <li><b>精细关卡设计</b>：8 关结构各异，但布局难度曲线、隐藏区、可达性微调需真机反复试玩 —— 目前「结构到位、手感待调」。</li>
-      <li><b>相机 / 手感最终体感</b>：follow 相机保守调过，具体 distance/pitch 的爽度要真机拍板。</li>
-      <li><b>玩家角色资产</b>：仍用 Wanaka 带动画角色（换 Sketchfab 静态模型会丢跑跳动画），未做原创角色。</li>
-      <li><b>部分道具 / 铃铛</b>：铃铛没找到干净非侵权模型，保留库资产；巨化 / 竹蜻蜓 / 狸猫未换。</li>
-      <li><b>换装朝向 / 尺寸</b>：金币 / 星 / 水晶按缩略图估的，真机可能要微调。</li>
-      <li><b>像不像原作</b>：刻意不 1:1 抄任天堂角色 / 关卡 / 资产 —— 是「同类型优质原创」，非复制品。</li>
+      <li><b>Fine-grained level design</b>: the 8 stages are structurally distinct, but per-stage difficulty curve, hidden areas and reachability tuning still need repeated live play — currently "structure in place, feel to be tuned".</li>
+      <li><b>Camera / final feel</b>: the follow-cam was nudged conservatively; the exact distance/pitch sweetness needs a call on real hardware.</li>
+      <li><b>Player character asset</b>: still the Wanaka rigged character (swapping to a static Sketchfab model would lose the run/jump animations); no original character yet.</li>
+      <li><b>Some items / the bell</b>: no clean non-infringing bell was found, so the library asset stays; mega / propeller / tanuki items unchanged.</li>
+      <li><b>Swap orientation / scale</b>: coin / star / crystal sizes were estimated from thumbnails and may need a live tweak.</li>
+      <li><b>Looks like the original</b>: deliberately not a 1:1 copy of Nintendo's characters / levels / assets — this is a high-quality same-genre original, not a clone.</li>
     </ul>
   </section>
 
   <section>
-    <h2 class="display">demo 怎么玩</h2>
+    <h2 class="display">How to play the demo</h2>
     <div class="demo">
       <div class="keys">
-        <span class="key"><span class="cap">W A S D</span><span>移动</span></span>
-        <span class="key"><span class="cap">K / ␣</span><span>跳（连按=三段跳）</span></span>
-        <span class="key"><span class="cap">J</span><span>冲刺 / 变身后攻击</span></span>
-        <span class="key"><span class="cap">L</span><span>蹲 · 空中=踏地砸</span></span>
-        <span class="key"><span class="cap">R</span><span>重来</span></span>
+        <span class="key"><span class="cap">W A S D</span><span>move</span></span>
+        <span class="key"><span class="cap">K / ␣</span><span>jump (chain = triple jump)</span></span>
+        <span class="key"><span class="cap">J</span><span>sprint / attack when transformed</span></span>
+        <span class="key"><span class="cap">L</span><span>crouch · in air = ground pound</span></span>
+        <span class="key"><span class="cap">R</span><span>restart</span></span>
       </div>
-      <p class="goal">吃金币（满 100 加命）与力量星，踩 / 打敌人（<b>连踩有连击加分</b>），顶木箱出金币、顶宝箱得道具变身，躲危险区 —— <b>先打掉关底 Boss（读它的蓄力预警横向闪避）再冲到旗杆</b>通关，逐关推进到火山城堡决战炎龙。掉命回检查点，命尽回标题选关。</p>
+      <p class="goal">Grab coins (100 = an extra life) and Power Stars, stomp / hit enemies (<b>chained stomps score a combo</b>), hit crates for coins and chests for power-ups, dodge hazards — <b>defeat the end-of-stage boss (read its wind-up warning and dodge sideways), then reach the goal flag</b> to clear, advancing stage by stage to the Volcano Castle showdown with the Flame Dragon. Lose a life → checkpoint; out of lives → title / level-select.</p>
     </div>
   </section>
 
-  <p class="foot">铃铛猫 · 星之国奇旅 — Wanaka dev · 原创非侵权复刻 · 已在 wall 标记完成</p>
+  <p class="foot">Bellcat · Star Land Journey — Wanaka dev · original non-infringing replica · marked done on the wall</p>
 </div>
 </body>
 </html>
